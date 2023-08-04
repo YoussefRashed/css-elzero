@@ -1,0 +1,29 @@
+.assign-2 {
+  background-color: #eee;
+  width: fit-content;
+  margin: 30px auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  line-height: 4;
+  font-weight: bold;
+  padding: 10px;
+  position: relative;
+}
+.assign-2::first-letter {
+  visibility: hidden;
+}
+.assign-2::before {
+  content: "1";
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 70%;
+  width: 50px;
+  transform: translatey(-50%);
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
